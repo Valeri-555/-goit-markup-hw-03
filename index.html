@@ -19,7 +19,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container container-header">
         <nav class="header-nav">
           <a href="./index.html" class="logo"
             >Web<span class="logo-studio">Studio</span></a
@@ -32,27 +32,26 @@
               <a href="./portfolio.html" class="header-link link">Портфоліо</a>
             </li>
             <li class="header-item">
-              <a href="" class="header-link link">Контакти</a>
+              <a href="#" class="header-link link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contact list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="header-mail link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="header-tel link"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        <div class="contacts-wrap">
+          <ul class="header-contact list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+        
       </div>
     </header>
-    <main class="main">
+    <main>
       <section class="hero">
-        <div class="wrapper-hero">
+        <div class="wrapper-hero container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button hero-btn-text">
             Замовити послугу
@@ -61,7 +60,7 @@
       </section>
       <!-- Наші особливості -->
       <section class="our-feauters">
-        <div class="container-feauters">
+        <div class="container-feauters container">
           <h2 hidden class="visually-hidden">Наші особливості</h2>
           <ul class="feauters-list list">
             <li class="feauter">
@@ -96,9 +95,9 @@
       </section>
       <!-- Чим ми займаємося -->
       <section class="gallery">
-        <div class="container-gallery">
+        <div class="container-gallery container">
         <h2 class="gallery-item">Чим ми займаємося</h2>
-        <ul class="list">
+        <ul class="list list-gallery">
           <li class="gallery-img">
             <img
               src="./img/work1.jpg"
@@ -128,9 +127,9 @@
       </section>
       <!-- Наша команда -->
       <section class="team">
-        <div class="container-team">
+        <div class="container-team container">
         <h2 class="our-team">Наша команда</h2>
-        <ul class="list">
+        <ul class="list team-section">
           <li class="team-list">
             <img
               src="./img/team1.jpg"
@@ -176,7 +175,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container-footer">
+      <div class="container-footer container">
       <a href="./index.html" class="footer-logo"
         >Web<span class="logo-second">Studio</span></a
       >
