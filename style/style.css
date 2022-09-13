@@ -1,13 +1,35 @@
 :root {
     --primary-text-color: #212121;
-    --primary-title-color: #FFFFFF;
+    --primary-title-color: #ffffff;
     --secondary-text-color: #757575;
-    --accent-color: #2196F3;
-    --background-color: #2F303A;
+    --accent-color: #2196f3;
+    --background-color: #2f303a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 1630px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .list {
@@ -15,25 +37,29 @@ body {
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    Font-style: Bold;
+    font-family: "Raleway", sans-serif;
+    font-style: Bold;
     font-weight: 700;
-    Font-size: 26px;
-    Line-height: 1.2;
-    color: #2196F3;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #2196f3;
     text-decoration: none;
 }
 
 .logo-studio {
-    font-family: 'Raleway', sans-serif;
-    Font-style: Bold;
+    font-family: "Raleway", sans-serif;
+    font-style: Bold;
     font-weight: 700;
-    Font-size: 26px;
-    Line-height: 1.2;
+    font-size: 26px;
+    line-height: 1.2;
     color: #000000;
 }
 
 /* Header */
+
+.header {
+    padding-top: 24px;
+}
 
 .header-link {
     color: var(--primary-text-color);
@@ -59,7 +85,7 @@ body {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
 
 .header-tel {
@@ -73,7 +99,11 @@ body {
 /* Hero section */
 
 .hero {
-    background-color: var(--background-color)
+    background-color: var(--background-color);
+}
+
+.wrapper-hero {
+    padding: 200px 0 280px 452px;
 }
 
 .hero-title {
@@ -84,6 +114,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-bottom: 30px;
+    width: 696px;
 }
 
 .hero-button {
@@ -94,7 +126,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #188CE8;
+    background-color: #188ce8;
 }
 
 .hero-btn-text {
@@ -113,6 +145,11 @@ body {
 
 .our-feauters {
     background-color: var(--primary-title-color);
+}
+
+.container-feauters {
+    padding: 94px 15px;
+    width: 1200px;
 }
 
 .visually-hidden {
@@ -142,7 +179,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
 }
 
 /* Чим ми займаємось */
@@ -156,9 +193,22 @@ body {
     letter-spacing: 0.03em;
 }
 
+.container-gallery {
+    padding-bottom: 94px;
+    width: 1170px;
+}
+
 /* Наша команда */
 .team {
-    background-color: #F5F4FA;
+    background-color: #f5f4fa;
+}
+
+.container-team {
+    width: 1600px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 215px;
+
 }
 
 .our-team {
@@ -168,6 +218,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 50px;
 }
 
 .team-item {
@@ -185,31 +236,49 @@ body {
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 /* Footer */
 
 .footer {
-    background-color: var(--background-color)
+    background-color: var(--background-color);
 }
- 
+
+.container-footer {
+    padding: 60px 0 60px 215px;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #2196f3;
+    text-decoration: none;
+}
+
 .logo-second {
-    font-family: 'Raleway', sans-serif;
-        Font-style: Bold;
-        font-weight: 700;
-        Font-size: 26px;
-        Line-height: 1.2;
-        color: #FFFFFF
+    font-family: "Raleway", sans-serif;
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #ffffff;
 }
 
 .address {
-    color: #FFFFFF;
+    color: #ffffff;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+}
+
+.footer-address {
+    margin-top: 20px;
 }
 
 .footer-mail,
@@ -224,12 +293,20 @@ body {
 
 /* Портфоліо */
 
+.container-list{
+    margin: 94px 215px;
+    width: 1170px;
+}
+
 .button {
-    background: #F5F4FA;
+    background: #f5f4fa;
     border: none;
     cursor: pointer;
 }
 
+.buttons-list {
+    margin-bottom: 34px;
+}
 
 .button-text {
     font-family: inherit;
@@ -259,7 +336,7 @@ body {
 .button:hover,
 .button:focus {
     background: var(--accent-color);
-    color: var(--primary-title-color)
+    color: var(--primary-title-color);
 }
 
 .list-text {
