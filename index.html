@@ -4,68 +4,99 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Webstudio</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" class="logo">Web<span class="logo-studio">Studio</span></a>
-        <ul class="header-list list">
-          <li class="header-item current"><a href="./index.html" class="header-link link">Студія</a></li>
-          <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфоліо</a></li>
-          <li class="header-item"><a href="" class="header-link link">Контакти</a></li>
+      <div class="container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <ul class="header-list list">
+            <li class="header-item current">
+              <a href="./index.html" class="header-link link">Студія</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link">Портфоліо</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="header-mail link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="header-tel link"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="header-contact list" >
-        <li><a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main class="main">
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero-button hero-btn-text">Замовити послугу</button>
+        <div class="wrapper-hero">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero-button hero-btn-text">
+            Замовити послугу
+          </button>
+        </div>
       </section>
       <!-- Наші особливості -->
       <section class="our-feauters">
-        <h2 hidden class="visually-hidden">Наші особливості</h2>
-        <ul class="feauters-list list">
-          <li class="feauter">
-            <h3 class="feautrs-item">Увага до деталей</h3>
-            <p class="feauters-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="feauter">
-            <h3 class="feautrs-item">Пунктуальність</h3>
-            <p class="feauters-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="feauter">
-            <h3 class="feautrs-item">Планування</h3>
-            <p class="feauters-text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="feauter">
-            <h3 class="feautrs-item">Сучасні технології</h3>
-            <p class="feauters-text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container-feauters">
+          <h2 hidden class="visually-hidden">Наші особливості</h2>
+          <ul class="feauters-list list">
+            <li class="feauter">
+              <h3 class="feautrs-item">Увага до деталей</h3>
+              <p class="feauters-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="feauter">
+              <h3 class="feautrs-item">Пунктуальність</h3>
+              <p class="feauters-text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="feauter">
+              <h3 class="feautrs-item">Планування</h3>
+              <p class="feauters-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="feauter">
+              <h3 class="feautrs-item">Сучасні технології</h3>
+              <p class="feauters-text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Чим ми займаємося -->
       <section class="gallery">
+        <div class="container-gallery">
         <h2 class="gallery-item">Чим ми займаємося</h2>
         <ul class="list">
           <li class="gallery-img">
@@ -93,9 +124,11 @@
             />
           </li>
         </ul>
+        </div>  
       </section>
       <!-- Наша команда -->
       <section class="team">
+        <div class="container-team">
         <h2 class="our-team">Наша команда</h2>
         <ul class="list">
           <li class="team-list">
@@ -139,10 +172,14 @@
             <p class="team-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo">Web<span class="logo-second">Studio</span></a>
+      <div class="container-footer">
+      <a href="./index.html" class="footer-logo"
+        >Web<span class="logo-second">Studio</span></a
+      >
       <address class="footer-address">
         <ul class="list">
           <li>
@@ -154,10 +191,19 @@
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com" class="footer-mail link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-mail link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="footer-tel link"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
