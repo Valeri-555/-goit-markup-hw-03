@@ -39,6 +39,7 @@ body {
     text-decoration: none;
     margin-right: 95px;
     display: block;
+    padding:  24px 0 25px 0;
 }
 
 .logo-studio {
@@ -53,11 +54,12 @@ body {
 /* Header */
 
 .header {
-    padding-top: 24px;
+
 }
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .container {
@@ -65,7 +67,6 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid #ececec;
 }
 
 .container-header {
@@ -88,7 +89,7 @@ body {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    padding: 5px;
+    padding: 32px 0;
     display: block;
 }
 
@@ -108,6 +109,7 @@ body {
 
 .header-contact {
     display: flex;
+
 }
 
 .header-mail {
@@ -116,6 +118,7 @@ body {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    padding: 32px 0;
 }
 
 .header-tel {
@@ -125,18 +128,18 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     margin-left: 50px;
-    margin-right: 215px;
+    padding: 32px 0;
 }
 
 /* Hero section */
 
 .hero {
     background-color: var(--background-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .wrapper-hero {
-    padding-top: 200px;
-    padding-bottom: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,17 +178,19 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     font-family: inherit;
+    padding: 10px 32px;
 }
 
 /* Наші особливості */
 
 .our-feauters {
     background-color: var(--primary-title-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .container-feauters {
-    padding: 94px 15px;
-    width: 1200px;
+    
 }
 
 .feauters-list {
@@ -220,6 +225,7 @@ body {
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .feauters-text {
@@ -310,18 +316,19 @@ body {
 }
 
 .team-content {
-    padding: 30px 60px;
-    
+    padding: 30px 0;
+    text-align: center;
 }
 
 /* Footer */
 
 .footer {
     background-color: var(--background-color);
+    padding: 60px 0;
 }
 
 .container-footer {
-    padding: 60px 0 60px 215px;
+    
 }
 
 .footer-logo {
@@ -332,6 +339,8 @@ body {
     line-height: 1.2;
     color: #2196f3;
     text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
 }
 
 .logo-second {
@@ -368,15 +377,15 @@ body {
 
 /* Портфоліо */
 
-.container-list {
-    margin-top: 94px;
-    margin-bottom: 94px;
+.portfolio-list {
+    padding: 94px 0;
 }
 
 .button {
     background: #f5f4fa;
     border: none;
     cursor: pointer;
+    margin-left: 8px;
 }
 
 .buttons-list {
@@ -388,15 +397,14 @@ body {
 .projects-list {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
 }
 
 .content-list {
-    flex-basis: calc((100%-60px) / 3);
+    flex-basis: calc(100% / 3 -30px);
     margin-bottom: 30px;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-   
+   margin-right: 30px;
 }
 
 .button-text {
@@ -406,6 +414,7 @@ body {
     line-height: 1.6;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    padding: 6px 22px;
 }
 
 .project-item {
@@ -441,4 +450,6 @@ img {
 
 .project-content {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
